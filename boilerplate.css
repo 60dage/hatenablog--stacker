@@ -7,7 +7,6 @@
 	Hatena Blog Teamさんのはてなブログ用テーマ「boilerblate」をカスタマイズしています。
 	このCSSおよびLESSファイルは自由に複製・再配布できます。
 	このテーマをもとにしたデザインテーマの配布も自由です。
-	Licensed under the MIT license.
 	Responsive: yes
 */
 /* import normalize */
@@ -1004,6 +1003,11 @@ header-image-only #title {
   color: #999999;
 }
 /* about ページ */
+.page-about #main {
+  -webkit-column-count: 1 !important;
+     -moz-column-count: 1 !important;
+          column-count: 1 !important;
+}
 .page-about dt {
   font-size: 16px;
   font-weight: bold;
