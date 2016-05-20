@@ -1,0 +1,47 @@
+/* Media Queries - Retina Display */
+
+@media (-webkit-min-device-pixel-ratio: 2) {
+	.hatena-module-search-box .search-module-button {
+		background: transparent url(http://blog.hatena.ne.jp/images/theme/search@2x.png) no-repeat right center;
+		background-size: 20px 20px;
+	}
+}
+
+/* Media Queries - Tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+	#box2-inner {
+		column-count: 2;
+	}
+}
+
+/* Media Queries - Small Tablet & Smartphone */
+@media (max-width: 767px) {
+	#globalheader-container {
+		position: static;
+	}
+	.header-image-enable,header-image-only {
+		#container {
+			padding: 0;
+		}
+		#blog-title-inner {
+			background-size: 140%;
+		}
+		#title {
+			padding-top: 15%;
+		}
+	}
+	#container {
+		word-wrap: break-word;
+		overflow: hidden;
+	}
+	body #container #content #content-inner #main,#box2-inner {
+		column-count: 1;
+	}
+	body.page-entry #container #content #content-inner #wrapper #main article.entry, body.page-preview #container #content #content-inner #wrapper #main article.entry {
+		font-size: 100%;
+	}
+}
+
+/* Media Queries - Smartphone */
+@media (max-width: 480px) {
+}
