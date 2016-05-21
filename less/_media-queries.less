@@ -12,6 +12,9 @@
 	#box2-inner {
 		column-count: 2;
 	}
+	.header-image-enable #blog-title,.header-image-only #blog-title {
+		margin: 0 auto;
+	}
 }
 
 /* Media Queries - Small Tablet & Smartphone */
@@ -19,12 +22,12 @@
 	#globalheader-container {
 		position: static;
 	}
-	.header-image-enable,header-image-only {
+	.header-image-enable,.header-image-only {
 		#container {
 			padding: 0;
 		}
-		#blog-title-inner {
-			background-size: 140%;
+		#blog-title {
+			margin: 0 auto 30px auto;
 		}
 		#title {
 			padding-top: 15%;
@@ -33,6 +36,7 @@
 	#container {
 		word-wrap: break-word;
 		overflow: hidden;
+		padding: 0;
 	}
 	body #container #content #content-inner #main,#box2-inner {
 		column-count: 1;
