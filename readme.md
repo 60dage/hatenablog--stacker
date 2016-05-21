@@ -4,6 +4,8 @@
 
 # 構成
 
+はてなブログさんの「<a href="https://github.com/hatena/Hatena-Blog-Themes/tree/master/boilerplate">boilerplate</a>」をベースにしています。
+
 * boilerplate.less
     * 基本となるスタイルが書かれているLESSファイルです。加えて、下記の4つのLESSファイルを読み込んでいます。
 * _mixin.less
@@ -15,9 +17,3 @@
 * _normalize.less
     * <a href="http://necolas.github.com/normalize.css/">normalize.css</a>です。
 
-
-# ライセンス
- 
-このCSSおよびLESSファイルはMITライセンスのもと自由に複製・再配布できます。
-記事本文の書式やコメント欄のスタイルなど、必要な部分だけをコピーして使ってもかまいません。
-このデザインテーマをもとにしたテーマの配布も自由です。
