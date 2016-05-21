@@ -522,6 +522,8 @@ body #container #content #content-inner #main {
 }
 body #container #content #content-inner #main .entry {
   display: inline-block;
+  width: 100%;
+  box-sizing: border-box;
   background: #fff;
   border: 2px solid #fafafa;
   box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
