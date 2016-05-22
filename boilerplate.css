@@ -725,6 +725,22 @@ ol {
 .entry-content .hatena-asin-detail li {
   line-height: 1.4;
 }
+/* see-more */
+a.entry-see-more {
+  margin: 0 0 10px 0;
+  padding: 0.5rem;
+  display: block;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  background: #f4f4f4;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+a.entry-see-more:hover {
+  color: #0f5373;
+  background: #eee;
+}
 /* entry-footer */
 .entry-footer {
   margin-top: 10px;
