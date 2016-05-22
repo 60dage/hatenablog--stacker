@@ -1014,18 +1014,18 @@ a.entry-see-more:hover {
   color: #999999;
 }
 /* about ページ */
-body.page-about #main {
+body.page-about #container #content #content-inner #main {
   -webkit-column-count: 1;
      -moz-column-count: 1;
           column-count: 1;
 }
-body.page-about dt {
+body.page-about #container #content #content-inner dt {
   font-size: 16px;
   font-weight: bold;
   border-bottom: 1px solid #dfdfdf;
   margin-bottom: 5px;
 }
-body.page-about dd {
+body.page-about #container #content #content-inner dd {
   margin-left: 0;
   margin-bottom: 30px;
 }
