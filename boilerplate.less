@@ -29,11 +29,10 @@ body {
 }
 a {
 	color: @link;
+	transition: 0.2s;
 	&:hover {
 		color: @hover;
-	}
-	&:visited {
-		color: @link;
+		transition: 0.2s;
 	}
 }
 h1,h2,h3,h4,h5,h6 {
@@ -520,6 +519,9 @@ a.entry-see-more {
 		text-align: right;
 		width: 45%;
 	}
+	a {
+		text-decoration: none;
+	}
 }
 
 /* footer */
@@ -647,8 +649,12 @@ body.page-entry,body.page-preview, {
 							height: auto;
 							margin: 1em 0;
 							padding: 1em 10%;
-							background: #eee;
+							text-decoration: none;
+							background: #f8f8f8;
 							box-sizing: border-box;
+							&:hover {
+								background: #eee;
+							}
 						}
 					}
 				}
