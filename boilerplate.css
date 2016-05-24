@@ -509,7 +509,7 @@ ol {
 #container #content #content-inner #main {
   width: 100%;
   margin: 0 0 5% 0;
-  padding: 0 0 8% 0;
+  padding: 0 0 10% 0;
   position: relative;
   -webkit-column-count: 2;
      -moz-column-count: 2;
@@ -1095,6 +1095,7 @@ body.page-preview #container #content #content-inner #wrapper {
 }
 body.page-entry #container #content #content-inner #wrapper #main,
 body.page-preview #container #content #content-inner #wrapper #main {
+  padding: 0;
   -webkit-column-count: 1;
      -moz-column-count: 1;
           column-count: 1;
@@ -1129,8 +1130,12 @@ body.page-preview #container #content #content-inner #wrapper #main article.entr
 body.page-entry #container #content #content-inner #wrapper #main article.entry .entry-content,
 body.page-preview #container #content #content-inner #wrapper #main article.entry .entry-content {
   margin: 0 auto 1em auto;
-  padding: 0 5%;
+  padding: 0 5% 5% 5%;
   max-width: 720px;
+}
+body.page-entry #container #content #content-inner #wrapper #main .pager,
+body.page-preview #container #content #content-inner #wrapper #main .pager {
+  position: relative;
 }
 body.page-entry #container #content #content-inner #wrapper #main span.pager-prev a,
 body.page-preview #container #content #content-inner #wrapper #main span.pager-prev a,

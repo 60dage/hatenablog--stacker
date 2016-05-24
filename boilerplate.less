@@ -107,7 +107,7 @@ ul,ol {
 			#main {
 				width: 100%;
 				margin: 0 0 5% 0;
-				padding: 0 0 8% 0;
+				padding: 0 0 10% 0;
 				position: relative;
 				column-count: 2;
 				column-gap: 15px;
@@ -618,6 +618,7 @@ body.page-entry,body.page-preview, {
 				#wrapper {
 					background: #fff;
 					#main {
+						padding: 0;
 						column-count: 1;
 						column-gap: 0;
 						column-fill: none;
@@ -639,9 +640,12 @@ body.page-entry,body.page-preview, {
 							}
 							.entry-content {
 								margin: 0 auto 1em auto;
-								padding: 0 5%;
+								padding: 0 5% 5% 5%;
 								max-width: 720px;
 							}
+						}
+						.pager {
+							position: relative;
 						}
 						span.pager-prev a,span.pager-next a {
 							display: inline-block;
