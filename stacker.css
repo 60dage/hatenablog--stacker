@@ -977,6 +977,7 @@ a.entry-see-more:hover {
   left: 0;
   display: block;
   *zoom: 1;
+  clear: both;
 }
 .pager:after {
   display: block;
