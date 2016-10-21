@@ -110,6 +110,8 @@ ul,ol {
 				padding: 0 0 10% 0;
 				position: relative;
 				column-count: 2;
+				-moz-column-count: 2;
+				-webkit-column-count: 2;
 				column-gap: 15px;
 				column-fill: balance;
 				.entry {
@@ -313,7 +315,7 @@ a.entry-see-more {
 	box-sizing: border-box;
 	&:hover {
 		color: @hover;
-		background: #eee;	
+		background: #eee;
 	}
 }
 
@@ -397,6 +399,8 @@ a.entry-see-more {
 	.clearfix;
 	overflow: hidden;
 	column-count: 3;
+	-moz-column-count: 3;
+	-webkit-column-count: 3;
 	column-gap: 15px;
 	column-fill: auto;
 }
@@ -544,6 +548,8 @@ a.entry-see-more {
 body.page-about #container #content #content-inner {
 	#main {
 		column-count: 1;
+		-moz-column-count: 1;
+		-webkit-column-count: 1;
 	}
 	dt {
 		font-size: 16px;
@@ -621,6 +627,8 @@ body.page-entry,body.page-preview, {
 					#main {
 						padding: 0;
 						column-count: 1;
+						-moz-column-count: 1;
+						-webkit-column-count: 1;
 						column-gap: 0;
 						column-fill: none;
 						article.entry {
